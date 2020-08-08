@@ -74,6 +74,7 @@ function success() {
 function setup() {
 	cek_root
 	cek_net
+	depend
 	install
 	clear && sleep 0.5
 	success
