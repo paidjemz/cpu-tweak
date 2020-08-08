@@ -5,13 +5,14 @@ Write on bash shell.</br></br>
 # Installation
 ```
 git clone https://github.com/paidjemz/cpu-tweak
-chmod +x setup.sh
+cd cpu-tweak && chmod +x setup.sh
 sudo ./setup.sh
 ```
 Wait the installation until success</br>
 and just type <b><i>cputwk</i></b> in your Terminal.
 
 # Uninstalling
+cd into cpu-tweak dir and follow
 ```
 chmod +x uninstall.sh
 sudo ./uninstall.sh
