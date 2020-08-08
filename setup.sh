@@ -41,6 +41,17 @@ function cek_net() {
 	fi
 }
 
+function depend() {
+	which xterm > /dev/null 2>&1
+	if [ "$0" -eq "0" ]; then
+	echo -e $green "OK"
+	sleep 1
+	else
+	apt update && apt install xterm -y
+	echo -e $green "xterm installed"
+	sleep 1 && exit 1
+}
+
 function install() {
 	wget ${down} -O cputwk
 	chmod +x cputwk
