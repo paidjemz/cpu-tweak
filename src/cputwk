@@ -27,6 +27,9 @@ orange='\e[38;5;166m'
 cek1="/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_governors"
 cek2="/sys/devices/system/cpu/cpu0/cpufreq/scaling_governor"
 
+# resize terminal
+resize -s 39 70 > /dev/null
+
 function nomer3() {
 	clear
 	echo -e $white ""
