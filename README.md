@@ -1,6 +1,6 @@
 # CPU Tweak
 A program for change CPU mode on your GNU/Linux machine.</br>
-Write on bash shell.</br>
+Write on bash shell.</br></br>
 ![ss](https://raw.githubusercontent.com/paidjemz/cpu-tweak/master/src/cputwk.png)
 # Installation
 ```
