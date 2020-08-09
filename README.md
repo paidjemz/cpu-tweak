@@ -12,7 +12,7 @@ Wait the installation until success</br>
 and just type <b><i>cputwk</i></b> in your Terminal.
 
 # Uninstalling
-cd into cpu-tweak dir and follow
+cd into cpu-tweak dir then
 ```
 chmod +x uninstall.sh
 sudo ./uninstall.sh
