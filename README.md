@@ -9,7 +9,7 @@ cd cpu-tweak && chmod +x setup.sh
 sudo ./setup.sh
 ```
 Wait the installation until success</br>
-and just type <b><i>cputwk</i></b> in your Terminal.
+and just type <b><i>cputwk</i></b> in your terminal to open cputwk.
 
 # Uninstalling
 cd into cpu-tweak dir then
