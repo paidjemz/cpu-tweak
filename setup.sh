@@ -37,8 +37,8 @@ function install() {
 }
 
 function success() {
-	echo -e $okegreen "[✓] Installation successfull.."
-	echo -e $okegreen "to use just type cputwk in your terminal"
+	sleep 1.5 && echo -e $okegreen "[✓] Installation successfull.."
+	sleep 1.5 && echo -e $okegreen "to use just type cputwk in your terminal"
 	echo ""
 	sleep 2.5 && clear
 	exit 1
