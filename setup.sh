@@ -29,9 +29,9 @@ function cek_root() {
 function install() {
 	chmod +x $path/src/cputwk
 	cp $path/src/cputwk /usr/sbin
-	if [ -e /usr/bin/cputwk ]
+	if [ -e /usr/sbin/cputwk ]
 	then
-		rm /usr/bin/cputwk
+		rm /usr/sbin/cputwk
 	fi
 	ln -s /usr/sbin/cputwk /usr/bin/cputwk
 }
